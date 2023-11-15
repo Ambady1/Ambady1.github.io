@@ -59,8 +59,7 @@
         function error(err) {
             if (err.code === 1) {
                 alert("Please allow geolocation(GPS) access in your mobile device manually");
-                // Uncomment the following line to open Android location settings
-                // openAndroidLocationSettings();
+                 openAndroidLocationSettings();
             } else {
                 alert("Cannot get current location");
             }
